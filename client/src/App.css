@@ -38,7 +38,16 @@
 }
 
 .board{
-  background: black;
-  width:800px;
+  background: purple;
+  width:600px;
   margin:auto;
+}
+
+.board >.cell{
+  width:calc(600px/7);
+  height: calc(600px/7);
+  background:white ;
+  display: inline-block;
+    box-sizing: border-box;
+    border-radius: 50%;
 }
